@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+lite_cash = "9z37tYVJuRaPFJZWSW7eNW97NW7zTTP8oo9qJdmncP2Z"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/panda/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
